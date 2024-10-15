@@ -22,9 +22,9 @@ const Navbar = () => {
         {/* Navigation Links for larger screens */}
         <nav className='hidden md:flex items-center gap-8'>
           <a href="#" className='hover:text-cyan-300'>HOME</a>
-          <a href="#" className='hover:text-cyan-300'>TEAM</a>
-          <a href="#" className='hover:text-cyan-300'>COURSE</a>
-          <a href="#" className='hover:text-cyan-300'>NEWSLETTER</a>
+          <a href="#" className='hover:text-cyan-300'>ABOUT</a>
+          <a href="#" className='hover:text-cyan-300'>EVENTS</a>
+          <a href="#" className='hover:text-cyan-300'>SOCIALS</a>
           <a href="#" className='hover:text-cyan-300'>CONTACT</a>
         </nav>
 
@@ -40,9 +40,9 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className='md:hidden flex flex-col items-center bg-black text-white'>
           <a href="#" className='py-2 hover:text-cyan-300'>HOME</a>
-          <a href="#" className='py-2 hover:text-cyan-300'>TEAM</a>
-          <a href="#" className='py-2 hover:text-cyan-300'>COURSE</a>
-          <a href="#" className='py-2 hover:text-cyan-300'>NEWSLETTER</a>
+          <a href="#" className='py-2 hover:text-cyan-300'>ABOUT US</a>
+          <a href="#" className='py-2 hover:text-cyan-300'>EVENTS</a>
+          <a href="#" className='py-2 hover:text-cyan-300'>SOCIALS</a>
           <a href="#" className='py-2 hover:text-cyan-300'>CONTACT</a>
         </div>
       )}
