@@ -35,7 +35,7 @@ const Carousel = () => {
 
   return (
     <>
-     <div className="bg-black  pt-28 w-full overflow-x-hidden">
+     <div className="bg-black  pt-28 w-full overflow-x-hidden" >
      <p className="bg-gradient-to-t from-purple-400  to-cyan-300 bg-clip-text text-transparent text-center text-4xl font-bold">
    EVENTS WE HELD
 </p>
@@ -53,7 +53,7 @@ const Carousel = () => {
                                     <p className='text-black text-center font-semibold text-xl'>{d.name}</p>
                                     <p className="text-black text-center">{d.text}</p>
                                 </div>
-                                <div className='flex justify-center items-center'>
+                                <div className='flex justify-center items-center '>
 
                                 <img src={d.img} alt="" className='h-[190px] w-[250px] mt-5 rounded-xl' />
                                 </div>
