@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Carousel from './components/Carousel'
+import Socials from './components/Socials'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
     <Navbar/>
     <Home/>
     <Carousel/>
+    <Socials/>
     
     </>
   )
