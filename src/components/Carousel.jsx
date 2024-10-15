@@ -1,5 +1,4 @@
 import React from 'react'
-import tbx from '../assets/sameer0101.jpg'
 import wrkshp from '../assets/wrkshp.jpg'
 import prty from '../assets/prty.jpg'
 import cdcmp from '../assets/cdcmp.jpg'
