@@ -5,3 +5,8 @@
 .slick-slide > div{
     margin: 0 10px;
   }
+
+  .half-screen-padding {
+    padding-left: 27%; /* 50% of the viewport width */
+     /* 50% of the viewport width */
+}
